@@ -1,0 +1,22 @@
+body {width:70vw;
+height:100vW; 
+ text-align: center;
+
+
+.image-container {width: 70vw; margin: 0 auto;}
+.image-container img {max-width: 100%; height: auto; }
+
+
+
+
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #fFFFff;
+    color: black;
+}
+
+p {
+    color: #dd6464
+}
+
