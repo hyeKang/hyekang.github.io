@@ -1,22 +1,93 @@
-body {width:70vw;
-height:100vW; 
- text-align: center;}
+@charset 'utf-8';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css';
+@import 'fonts.css';
+body {
+    margin: 0;
+    height: 100vW;
+    text-align: center;
+}
 
 
-.image-container {width: 70vw; margin: 0 auto;}
-.image-container img {max-width: 100%; height: auto; }
+/*  portrait and landscape images*/
+
+img.portrait {
+    width: 100%;
+    height: auto;
+}
+
+img.landscape {
+    width: auto;
+    height: 100%
+}
 
 
+/*  */
 
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-container {
+    width: 70vw;
+    margin: 0 auto;
+}
+
+
+/*  아래 코드가 먹힙니다. 앗싸! */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/*  */
+
+.header {
+    background: #ffffff;
+    padding: 2rem;
+    position: relative;
+    /* margin-top: 100px; */
+}
+
+.main-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    height: 0;
+    /* height: 100px; */
+    background: #BF8C2A;
+}
+
+.main-menu-act {
+    /* display: flex !important; */
+    height: 50px !important;
+    color: skyblue;
+    background: yellow;
+}
+
+.main-menu li {
+    /* background: coral;*/
+    width: 25%;
+    /* border: 10px solid#000; */
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'noto sans';
+    padding: 1rem 0;
+}
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     background-color: #fFFFff;
     color: black;
 }
 
 p {
-    color: #dd6464
+    color: #810303
 }
-
